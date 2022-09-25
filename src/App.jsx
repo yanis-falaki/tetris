@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Tetris } from "./components/Tetris";
 
-function App() {
+const App = () => {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <div className="App">
+      <Tetris />
+    </div>
   );
-}
+};
 
 export default App;
