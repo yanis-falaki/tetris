@@ -10,7 +10,7 @@ export const TETRAMINOS = {
       [0, "I", 0, 0],
       [0, "I", 0, 0],
     ],
-    color: "80, 227 230",
+    color: "80, 227, 230",
   },
   J: {
     shape: [
@@ -18,7 +18,7 @@ export const TETRAMINOS = {
       [0, "J", 0],
       ["J", "J", 0],
     ],
-    color: "36, 95 223",
+    color: "36, 95, 223",
   },
   L: {
     shape: [
@@ -61,7 +61,7 @@ export const TETRAMINOS = {
   },
 };
 
-export const randomTetramnino = () => {
+export const randomTetromnino = () => {
   const tetraminos = "IJLOSTZ";
   const randTetramino =
     tetraminos[Math.floor(Math.random() * tetraminos.length)];
